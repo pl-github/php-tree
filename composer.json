@@ -1,7 +1,7 @@
 {
     "name": "plook/tree",
     "type": "library",
-    "description": "Library to work with tree data structures.",
+    "description": "Library for working with tree data structures.",
     "license": "LGPL-2.1-or-later",
     "authors": [
         {
