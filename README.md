@@ -1,5 +1,7 @@
 # Tree
 
+[![codecov](https://codecov.io/gh/pl-github/php-tree/graph/badge.svg?token=7CYQ6TO5GJ)](https://codecov.io/gh/pl-github/php-tree)
+
 A PHP library for working with tree data structures.
 
 ## Installation
