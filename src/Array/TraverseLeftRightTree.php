@@ -7,7 +7,11 @@ namespace Plook\Tree\Array;
 use function array_pop;
 use function count;
 
-/** @template T of array */
+/**
+ * @see \Plook\Tests\Tree\Array\TraverseLeftRightTreeTest
+ *
+ * @template T of array
+*/
 final class TraverseLeftRightTree
 {
     /**

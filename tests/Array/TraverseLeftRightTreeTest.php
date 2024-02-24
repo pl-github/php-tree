@@ -40,13 +40,10 @@ final class TraverseLeftRightTreeTest extends TestCase
             },
         );
 
-        self::assertSame(
-            [
-                'before 1',
-                'after 1',
-            ],
-            $callOrder,
-        );
+        self::assertSame([
+            'before 1',
+            'after 1',
+        ], $callOrder);
     }
 
     public function testTraverseTreeWithOneNodeAndOneChild(): void
@@ -71,15 +68,12 @@ final class TraverseLeftRightTreeTest extends TestCase
             },
         );
 
-        self::assertSame(
-            [
-                'before 1',
-                'before 2',
-                'after 2',
-                'after 1',
-            ],
-            $callOrder,
-        );
+        self::assertSame([
+            'before 1',
+            'before 2',
+            'after 2',
+            'after 1',
+        ], $callOrder);
     }
 
     public function testTraverseTreeWithSevenNodes(): void
@@ -109,24 +103,21 @@ final class TraverseLeftRightTreeTest extends TestCase
             },
         );
 
-        self::assertEquals(
-            [
-                'before 1',
-                'before 2',
-                'before 3',
-                'after 3',
-                'before 4',
-                'after 4',
-                'after 2',
-                'before 5',
-                'before 6',
-                'after 6',
-                'before 7',
-                'after 7',
-                'after 5',
-                'after 1',
-            ],
-            $callOrder,
-        );
+        self::assertSame([
+            'before 1',
+            'before 2',
+            'before 3',
+            'after 3',
+            'before 4',
+            'after 4',
+            'after 2',
+            'before 5',
+            'before 6',
+            'after 6',
+            'before 7',
+            'after 7',
+            'after 5',
+            'after 1',
+        ], $callOrder);
     }
 }
