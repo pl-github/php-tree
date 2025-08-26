@@ -11,7 +11,7 @@ use function count;
  * @see \Plook\Tests\Tree\Array\TraverseLeftRightTreeTest
  *
  * @template T of array
-*/
+ */
 final class TraverseLeftRightTree
 {
     /**
